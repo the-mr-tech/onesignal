@@ -24,9 +24,15 @@
           "homepage": "http://davidllop.com"
         }
     ],
+    "repositories": {
+        "0": {
+            "url": "https://github.com/the-mr-tech/laravel-onesignal.git",
+            "type": "vcs"
+        }
+    },
     "require": {
         "php": ">=7.0.0",
-        "berkayk/onesignal-laravel": "^0.9.3",
+        "berkayk/onesignal-laravel": "dev-master",
         "illuminate/notifications": "5.*",
         "illuminate/support": "5.*"
     },
